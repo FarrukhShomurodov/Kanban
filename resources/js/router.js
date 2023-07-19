@@ -3,17 +3,17 @@ import Vue from "vue"
 
 Vue.use(vueRouter)
 
-import Registr from "./views/Registr";
+import Registration from "./views/Registration";
 import Login from "./views/Login";
 
 const routes = [
     {
-        path: "/login",
+        path: "/log",
         component: Login,
     },
     {
         path: "/registration",
-        component: Registr,
+        component: Registration,
     }
 ];
 
