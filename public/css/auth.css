@@ -1,0 +1,35 @@
+
+.form-group input {
+    outline: none;
+    border-width: 0 0 1px;
+    border-radius: 0;
+    border-color: black;
+}
+
+.form-group input:focus {
+    box-shadow: none;
+    outline: none;
+    border-width: 0 0 1px;
+    border-radius: 0;
+    border-color: #4A59DF;
+}
+
+.form-group a {
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+
+.form-group {
+    margin-top: 50px;
+}
+.form-footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #A9A9A9;
+}
+
+.form-footer a {
+    text-decoration: none;
+    color: #4A59DF;
+}
