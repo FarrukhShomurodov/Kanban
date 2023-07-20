@@ -16,6 +16,14 @@
         <router-view></router-view>
     </div>
 
+    <script>
+        function pow(a,b){
+            for(let i = 0; i<b; i++){
+                b*=b;
+            }
+            return b;
+        }
+    </script>
 <script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>

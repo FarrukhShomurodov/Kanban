@@ -29,11 +29,6 @@
                             <!--                </div>-->
                         </b-form-group>
                         <b-button @click.prevent="login" class="mt-2" type="submit" variant="primary">Войти</b-button>
-                        <div class="mt-2">
-                            <p>У вас нет учетной записи?
-                                <router-link to="/registration">Регистрация</router-link>
-                            </p>
-                        </div>
                     </b-form>
                 </b-card>
             </b-col>

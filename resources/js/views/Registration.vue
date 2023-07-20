@@ -43,11 +43,6 @@
                                 ></b-form-input>
                             </b-form-group>
                             <b-button @click.prevent = 'register' class="mt-2" type="submit" variant="primary">Регистрация</b-button>
-                            <div class="mt-2">
-                                <p>У вас уже есть учетная запись?
-                                    <router-link to="/log"> Войти</router-link>
-                                </p>
-                            </div>
                         </b-form>
                     </div>
                 </b-card>
