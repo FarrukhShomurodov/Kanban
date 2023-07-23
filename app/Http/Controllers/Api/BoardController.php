@@ -50,6 +50,6 @@ class BoardController extends Controller
     public function destroy(Board $board)
     {
         $board->delete();
-        return response('board deleted successfully', 400);
+        return response('board deleted successfully', 200);
     }
 }

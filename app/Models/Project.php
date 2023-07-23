@@ -4,9 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 
-class Board extends Model
+class Project extends Model
 {
     use HasFactory;
 
@@ -14,11 +13,7 @@ class Board extends Model
      * @var string[]
      */
     protected $fillable = [
-        'name',
-        'project_id'
+        "name",
+        "user_id"
     ];
-
-    public function project(){
-        return $this->hasOne(Project::class);
-    }
 }
