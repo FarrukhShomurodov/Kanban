@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9f9aa27f-1213-47f6-bfa5-33c170a495e0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/TasksRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/TasksRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/TasksResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/TasksResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2023_07_20_041918_create_tasks_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2023_07_20_041918_create_tasks_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,6 +200,7 @@
       <workItem from="1690058250160" duration="3459000" />
       <workItem from="1690067380869" duration="763000" />
       <workItem from="1690107418801" duration="1755000" />
+      <workItem from="1690115136714" duration="2504000" />
     </task>
     <servers />
   </component>

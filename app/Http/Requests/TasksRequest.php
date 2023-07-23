@@ -26,7 +26,9 @@ class TasksRequest extends FormRequest
         return [
             "title" => "required|string|max:100",
             "description" => "required|string|max:700",
-            "image" => "required|image|mimes:jpeg,png,jpg,gif,svg|max:2048"
+            "image" => "required|image|mimes:jpeg,png,jpg,gif,svg|max:2048",
+            "board_id" => "required|int|exists:boards,id",
+            "user_id" => "required|int|exists:users,id",
         ];
     }
 }

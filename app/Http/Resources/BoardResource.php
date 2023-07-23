@@ -5,7 +5,7 @@ namespace App\Http\Resources;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class TasksResource extends JsonResource
+class BoardResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -16,11 +16,7 @@ class TasksResource extends JsonResource
     public function toArray($request): array
     {
         return [
-            "title" => $this->title,
-            "description" => $this->description,
-            "image" => $this->image,
-            "board_id" => BoardResource::make($this->whenLoaded("board")),
-            "user_id" => $this->user
+            'name' => $this->name
         ];
     }
 }
