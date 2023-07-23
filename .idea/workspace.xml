@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9f9aa27f-1213-47f6-bfa5-33c170a495e0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/views/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +150,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/OSPanel/domains/Kanban/public/css&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programming/new_projects/domains/postbox&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;web-ide.project.structure&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2022.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
@@ -193,6 +193,11 @@
       <workItem from="1689739842742" duration="8146000" />
       <workItem from="1689792456125" duration="5481000" />
       <workItem from="1689824115435" duration="370000" />
+      <workItem from="1689826656781" duration="2727000" />
+      <workItem from="1689927974294" duration="324000" />
+      <workItem from="1690058250160" duration="3459000" />
+      <workItem from="1690067380869" duration="763000" />
+      <workItem from="1690107418801" duration="1755000" />
     </task>
     <servers />
   </component>
